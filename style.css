@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* 인덱스 페이지 */
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.05),
+        rgba(0, 0, 0, 0.9)
+    );
+}
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 3;
+}
+.box01{
+    width: 100%;
+    padding-top: 130px;
+    text-align: center;
+}
+.box02{
+    width: 100%;
+    padding-top: 295px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", serif;
+}
+.box03{
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+/* 서브 페이지 */
+.font01{font-family: "Noto Sans KR", serif;font-weight: 700;font-size: 35px;letter-spacing: -0.5px;line-height: 55px;color: #7F725A;}
+.font02{font-family: "Noto Sans KR", serif;font-weight: 500;font-size: 22px;letter-spacing: -0.5px;line-height: 38px;color: #7F725A;}
+.font03{font-family: "Noto Sans KR", serif;font-weight: 500;font-size: 16px;letter-spacing: -0.5px;line-height: 24px;color: #7F725A;}
+.font04{font-family: "Noto Sans KR", serif;font-weight: 600;font-size: 20px;letter-spacing: -0.5px;line-height: 24px;color: #7F725A;}
+.font05{font-family: "Noto Sans KR", serif;font-weight: 700;font-size: 35px;letter-spacing: -0.5px;line-height: 55px;color: white;}
+.font06{font-family: "Noto Sans KR", serif;font-weight: 700;font-size: 14px;letter-spacing: -0.5px;line-height: 24px;color: white;}
+
+.b01{width: 100%;height: 791px;background-image: url(img/b01.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.logo{width: 100%;height: 144px;text-align: center;padding-top: 35px;position: absolute;}
+
+.b02{width: 100%;height: 969px;background-image: url(img/b02.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b02_c01{width: 369px;height: 624px;background-image: url(img/b02_c01.png);margin: 0 auto;background-repeat: no-repeat;background-position-y: bottom;padding-top: 40px;}
+.b02_c01_t01{height: 106px;text-align: center;padding-top: 25px;}
+.b02_c01_t02{height: 412px;text-align: center;padding-top: 35px;}
+.b02_c02{width: 100%;height: 244px;padding-top: 61px;text-align: center;}
+
+.b03{width: 100%;height: 1530px;background-color: #FFEEB6;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b03_c01{height: 135px;text-align: center;margin: 0 auto;padding-top: 40px;}
+.b03_c02{width: 322px;height: 271px;text-align: center;margin: 0 auto;padding-top: 31px;}
+.b03_c02_i01{height: 208px;}
+.b03_c02_t01{height: 48px;padding-top: 15px;}
+
+.b03_c03{width: 322px;height: 271px;text-align: center;margin: 0 auto;padding-top: 65px;}
+.b03_c03_i01{height: 208px;}
+.b03_c03_t01{height: 48px;padding-top: 15px;}
+
+.b03_c04{width: 322px;height: 271px;text-align: center;margin: 0 auto;padding-top: 65px;}
+.b03_c04_i01{height: 208px;}
+.b03_c04_t01{height: 48px;padding-top: 15px;}
+
+.b03_c05{width: 322px;height: 271px;text-align: center;margin: 0 auto;padding-top: 65px;}
+.b03_c05_i01{height: 208px;}
+.b03_c05_t01{height: 48px;padding-top: 15px;}
+
+.b04{width: 100%;height: 654px;background-image: url(img/b04.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b04_c01{width: 369px;height: 574px;background-image: url(img/b04_c01.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 40px;margin: 0 auto;}
+.b04_t01{height: 51px; text-align: center;padding-top: 25px;}
+.b04_t02{height: 35px; text-align: center;padding-top: 3px; margin: 0 auto}
+.b04_t03{height: 96px; text-align: center;padding-top: 15px;}
+.b04_i01{width: 150px;height: 246px;margin: 0 auto;padding-top: 46px;}
+.b04_i02{width: 150px;height: 35px;background-image: url(img/b04_i02.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 25px;margin: 0 auto;}
+
+.b05{width: 100%;height: 572px;background-image: url(img/b05.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b05_c01{width: 369px;height: 492px;background-image: url(img/b05_c01.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 40px;margin: 0 auto;}
+.b05_t01{height: 35px; text-align: center;padding-top: 3px; margin: 0 auto}
+.b05_t02{height: 96px; text-align: center;padding-top: 15px;}
+.b05_i01{width: 150px;height: 274px;margin: 0 auto;padding-top: 16px;}
+.b05_i02{width: 150px;height: 35px;background-image: url(img/b05_i02.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 25px;margin: 0 auto;}
+
+.b06{width: 100%;height: 572px;background-image: url(img/b06.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b06_c01{width: 369px;height: 492px;background-image: url(img/b06_c01.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 40px;margin: 0 auto;}
+.b06_t01{height: 35px; text-align: center;padding-top: 3px; margin: 0 auto}
+.b06_t02{height: 96px; text-align: center;padding-top: 15px;}
+.b06_i01{width: 150px;height: 254px;margin: 0 auto;padding-top: 36px;}
+.b06_i02{width: 150px;height: 35px;background-image: url(img/b06_i02.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 25px;margin: 0 auto;}
+
+.b07{width: 100%;height: 572px;background-image: url(img/b07.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b07_c01{width: 369px;height: 492px;background-image: url(img/b07_c01.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 40px;margin: 0 auto;}
+.b07_t01{height: 35px; text-align: center;padding-top: 3px; margin: 0 auto}
+.b07_t02{height: 96px; text-align: center;padding-top: 15px;}
+.b07_i01{width: 200px; height: 256px;margin: 0 auto;padding-top: 34px;}
+.b07_i02{width: 150px;height: 35px;background-image: url(img/b07_i02.png);background-repeat: no-repeat;background-position-y: bottom;padding-top: 25px;margin: 0 auto;}
+
+.b08{width: 100%;height: 711px;background-image: url(img/b08.png);background-position: center;background-repeat: no-repeat;background-size: cover;}
+.b08_c01{width: 100%;height: 325px;text-align: center;padding-top: 65px;}
+.b08_t01{width: 100%;height: 51px;text-align: center;padding-top: 25px;text-shadow: 0 0 10px#00000029;}
+.b08_c02{width: 310px;height: 34px;margin: 0 auto;padding-top: 10px;}
+.b08_c03{width: 310px;height: 45px;margin: 0 auto;padding-top: 15px;position: relative;}
+.b08_c03_t01{width: 200px;height: 20px;text-align: left;position: absolute;}
+.b08_c03_t02{width: 200px;height: 20px;text-align: left;padding-top: 25px;position: absolute;}
+.b08_c03_i01{width: 37px;height: 45px;right: 0;position: absolute;}
+
+footer{width: 100%;height: 222px;background-color: #E60012; color: white;}
+.f_01{width: 380px;height: 167px;margin: 0 auto;padding-top: 15px}
+.f_01_i01{width: 143px;height: 52px;}
+.f00{font-family: "Noto Sans KR", serif;font-size: 12px;text-align: left;letter-spacing: -0.5px;line-height: 17px;}
+.f01{height: 34px;font-weight: 500;padding-top: 10px;}
+.f02{height: 34px;font-weight: 500;padding-top: 5px;}
+.f03{height: 17px;font-weight: 600;padding-top: 15px;}
